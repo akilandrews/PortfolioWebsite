@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <base target="_blank">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt:100,300">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/picturefill.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+
+  <!-- TODO:  finish this degree :0 -->
+  <body>
+
+  <!-- begin container -->
+    <main class="container">
+
+      <!-- heading -->
+      <header class="row my-row">
+        <div class="col-md-6 my-col-md-6 title-logo">
+          <span class="fontelico-emo-coffee"></span>
+        </div>
+        <div class="col-md-6 my-col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Akil Andrews</h1>
+          <h4>Full Stack Samurai</h4>
+        </div>
+      </header>
+
+      <!-- page theme image -->
+      <section class="row">
+        <div class="col-md-12">
+            <hr>
+        </div>
+        <div class="col-md-12">
+          <picture>
+            <source srcset="images/afro-large.jpg" media="(min-width: 1000px)" />
+            <source srcset="images/afro-medium.jpg" media="(min-width: 500px)" />
+            <img src="images/afro-small.jpg" alt="Picture of the Afro Samurai">
+          </picture>
+        </div>
+      </section>
+
+      <!-- project info segments -->
+      <section class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </section>
+
+      <section class="row text-center">
+        <article class="col-md-4">
+          <picture>
+            <source srcset="images/lebron-medium.jpg" media="(min-width: 500px)" />
+            <img src="images/lebron-small.jpg" data-toggle="modal" data-target="#project1" alt="Udacity project one">
+          </picture>
+          <h3 class="text-uppercase">Project 1</h3>
+          <p>http://github.com/</p>
+        </article>
+        <article class="col-md-4">
+          <picture>
+            <source srcset="images/falcons-medium.jpg" media="(min-width: 500px)" />
+            <img src="images/falcons-small.jpg" data-toggle="modal" data-target="#project2" alt="Udacity project two">
+          </picture>
+          <h3 class="text-uppercase">Project 2</h3>
+          <p>http://github.com/</p>
+        </article>
+        <article class="col-md-4">
+          <picture>
+            <source srcset="images/jedi-medium.jpg" media="(min-width: 500px)" />
+            <img src="images/jedi-small.jpg" data-toggle="modal" data-target="#project3" alt="Udacity project three">
+          </picture>
+          <h3 class="text-uppercase">Project 3</h3>
+          <p>http://github.com/</p>
+        </article>
+      </section>
+
+<!-- end container -->
+    </main>
+
+<!-- modals-->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Project 1</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                      <source srcset="images/lebron-medium.jpg" media="(min-width: 500px)" />
+                      <img src="images/lebron-small.jpg" data-toggle="modal" data-target="#project1" alt="Udacity project one">
+                    </picture>
+                    <p>This was my first project in the FS nanodegree.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Project 2</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                      <source srcset="images/falcons-medium.jpg" media="(min-width: 500px)" />
+                      <img src="images/falcons-small.jpg" data-toggle="modal" data-target="#project2" alt="Udacity project two">
+                    </picture>
+                    <p>This was my second project in the FS nanodegree.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Project 3</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                      <source srcset="images/jedi-medium.jpg" media="(min-width: 500px)" />
+                      <img src="images/jedi-small.jpg" data-toggle="modal" data-target="#project3" alt="Udacity project three">
+                    </picture>
+                    <p>This was my third project in the FS nanodegree.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>

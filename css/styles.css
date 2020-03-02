@@ -1,0 +1,53 @@
+@import url(http://weloveiconfonts.com/api/?family=fontelico);
+
+@media screen and (min-width: 500px) {
+  .my-col-md-6 {
+    width: 50%;
+  }
+
+  .my-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* fontelico */
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
+}
+
+/* portfolio presentation */
+body {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  color: #2d3c49;
+}
+
+hr {
+  border: 2px solid #7d97ad;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  height: 125px;
+  font-size: 50px;
+  position: relative;
+  padding: 20px 15px 0 15px;
+  color: #02b3e4;
+}
